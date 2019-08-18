@@ -45,7 +45,7 @@ for letter in comando:
 
 pyautogui.hotkey('enter')
 
-time.sleep(5)
+time.sleep(10)
 
 for letter in usuario:
 	keyboard.press(letter)
