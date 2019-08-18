@@ -1,6 +1,16 @@
 import os
+import time
 
-
-term_command = "git add ."
-comando = 'bash -c \"(%s); exec bash\"' % term_command
+dia = "hoy"
+adding = "git add ."
+commits = "git commit -m " + dia
+push = "git push" 
+comando = 'bash -c \"(%s); exec bash\"' % adding
 os.system(comando)
+comando = 'bash -c \"(%s); exec bash\"' % commits
+os.system(comando)
+comando = 'bash -c \"(%s); exec bash\"' % push
+os.system(comando)
+os.system("echo christianFlores94")
+time.sleep(5)
+os.system("echo 2718Chfl")
