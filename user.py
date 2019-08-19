@@ -21,3 +21,5 @@ for letter in password:
 	keyboard.release(letter)
 	
 pyautogui.hotkey('enter')
+
+time.sleep(2)
