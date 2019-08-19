@@ -10,5 +10,6 @@ import time
 
 os.system("./add.py")
 os.system("./commit.py")
+time.sleep(3)
 os.system("gnome-terminal -e 'bash -c \"./user.py | git push; exec bash\"'")
 
