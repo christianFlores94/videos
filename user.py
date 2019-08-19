@@ -23,3 +23,11 @@ for letter in password:
 pyautogui.hotkey('enter')
 
 time.sleep(2)
+
+exit = "exit"
+
+for letter in exit:
+	keyboard.press(letter)
+	keyboard.release(letter)
+	
+pyautogui.hotkey('enter')
