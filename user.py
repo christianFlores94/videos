@@ -3,14 +3,21 @@ from pynput.keyboard import Key, Controller
 import pyautogui
 import time
 
+
 keyboard = Controller()
 
-# parte de push
-comando = "git push" 
+usuario = "christianFlores94"
 
-for letter in comando:
+for letter in usuario:
 	keyboard.press(letter)
 	keyboard.release(letter)
 
 pyautogui.hotkey('enter')
+time.sleep(2)
+password = "2718Chfl"
 
+for letter in password:
+	keyboard.press(letter)
+	keyboard.release(letter)
+	
+pyautogui.hotkey('enter')

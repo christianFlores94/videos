@@ -4,13 +4,10 @@ import pyautogui
 import time
 
 keyboard = Controller()
+password = "2718Chfl"
 
-# parte de push
-comando = "git push" 
-
-for letter in comando:
+for letter in password:
 	keyboard.press(letter)
 	keyboard.release(letter)
-
+	
 pyautogui.hotkey('enter')
-
