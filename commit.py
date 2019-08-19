@@ -6,7 +6,7 @@ keyboard = Controller()
 
 # parte de commit
 comando = "git commit -m " 
-commit = "\"hola\" "
+commit = "\"nuevo\" "
 comando = comando + commit 
 
 
