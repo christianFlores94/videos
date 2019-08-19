@@ -3,6 +3,7 @@ from pynput.keyboard import Key, Controller
 import pyautogui
 import time
 
+time.sleep(5)
 
 keyboard = Controller()
 
