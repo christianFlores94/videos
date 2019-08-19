@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from pynput.keyboard import Key, Controller
 import pyautogui
