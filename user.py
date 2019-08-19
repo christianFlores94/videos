@@ -22,7 +22,7 @@ for letter in password:
 	
 pyautogui.hotkey('enter')
 
-time.sleep(3600)
+time.sleep(60)
 
 exit = "exit"
 
