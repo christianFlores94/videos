@@ -13,7 +13,7 @@ for letter in usuario:
 	keyboard.release(letter)
 
 pyautogui.hotkey('enter')
-time.sleep(0.5)
+time.sleep(1)
 password = "2718Chfl"
 
 for letter in password:
